@@ -19,9 +19,9 @@ submit.addEventListener('click',function(e){
         let category="Underweight";
         if(bmi>=18.5 && bmi<=25){
             category="Normal"
-        }else if(bmi<=30){
+        }else if(bmi>25 && bmi<=30){
             category="Overweight"
-        }else{
+        }else if(bmi>30){
             category="Obese"
         }
         result.innerHTML=`Your Body Mass Index is ${bmi.toFixed(1)}`
