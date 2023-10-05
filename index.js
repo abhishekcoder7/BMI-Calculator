@@ -13,6 +13,7 @@ submit.addEventListener('click',function(e){
     console.log(gender);
     if(age<1 || weight<1 || height<1 || gender==null){
         result.innerHTML='Invalid data'
+        result2.innerHTML="";
     }else{
         let bmi = weight/((height/100) * (height/100));
         let category="Underweight";
