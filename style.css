@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: grey;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  position: absolute;
+  top: 85px;
+  display: flex;
+  height: 60vh;
+  width: 50vw;
+  background-color: #212121;
+  border-radius: 25px;
+}
+.wrapper2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  align-content: center;
+}
+.w_gen {
+  align-items: center;
+}
+h1 {
+  color: #212121;
+  position: absolute;
+  top: 20px;
+  font-family: 'Gabarito', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-weight: 900;
+}
+#result2 {
+  position: absolute;
+  bottom: 80px;
+}
+#result {
+  position: absolute;
+  bottom: 120px;
+}
+#height {
+  text-align: right;
+  font-size: 20px;
+  width: 80px;
+  flex: 3;
+  border-radius: 10px;
+}
+#weight {
+  text-align: right;
+  font-size: 20px;
+  width: 80px;
+  flex: 3;
+  border-radius: 10px;
+}
+#age {
+  text-align: right;
+  font-size: 20px;
+  width: 80px;
+  flex: 3;
+  border-radius: 10px;
+}
+
+label,
+p {
+  color: white;
+  font-size: 25px;
+  flex: 1;
+}
+#submit,
+#reset {
+  font-size: 21px;
+  height: 40px;
+  width: 250px;
+  cursor: pointer;
+}
+.w_age {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 40px;
+}
+.w_height {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  height: 40px;
+  margin: 10px;
+}
+.w_weight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  height: 40px;
+  margin: 10px;
+}
+form {
+  width: 100%;
+}
+.w_gen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  height: 25px;
+  margin: 10px;
+}
+.w_btns {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+#m,
+#f {
+  cursor: pointer;
+}
+.w_gen2 {
+  flex: 1.5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+input {
+  height: 30px;
+}
+p {
+  font-family: "Gabarito", cursive;
+  font-family: "Kanit", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
