@@ -45,11 +45,16 @@ font-weight: 900;
 }
 #result2 {
   position: absolute;
-  bottom: 80px;
+  bottom: 70px;
 }
 #result {
   position: absolute;
   bottom: 120px;
+}
+@media (max-width: 768px) {
+  #result, #result2 {
+    font-size: 20px;
+  }
 }
 #height {
   text-align: right;
@@ -75,6 +80,7 @@ font-weight: 900;
 
 label,
 p {
+  display: flex;
   color: white;
   font-size: 25px;
   flex: 1;
