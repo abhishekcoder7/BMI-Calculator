@@ -10,13 +10,14 @@ body {
   align-items: center;
 }
 .wrapper {
-  position: absolute;
-  top: 85px;
+  position: relative;
+  bottom:45px;
   display: flex;
-  height: 60vh;
-  width: 50vw;
+  height: 380px;
+  width: 800px;
   background-color: #212121;
   border-radius: 25px;
+  overflow: auto;
 }
 .wrapper2 {
   display: flex;
@@ -28,6 +29,7 @@ body {
   width: 100%;
   align-content: center;
   flex-wrap: wrap;
+  overflow: auto;
 }
 .w_gen {
   align-items: center;
