@@ -55,6 +55,9 @@ font-weight: 900;
   #result, #result2 {
     font-size: 20px;
   }
+  h1{
+    font-size:22px;
+  }
 }
 #height {
   text-align: right;
